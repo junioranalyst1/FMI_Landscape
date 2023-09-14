@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include D3.js library -->
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+  <button id="zoom_in">Zoom In</button>
+  <button id="zoom_out">Zoom Out</button>
+
+  <script>
+    let currentTransform = d3.zoomIdentity; // Global variable
+    let g; // Global variable to hold the group element
+
+    function renderChart(data) {
+      // Specify the chart's dimensions
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      const radius = Math.min(width, height) / 2 - 4;
+
+      // Create a radial cluster layout
+      const tree = d3.cluster()
+        .size([2 * Math.PI, radius])
+        .separation((a, b) => (a.parent == b.parent ? 30 : 60) / a.depth);
+
+      // Sort the tree and apply the layout
+      const root = tree(d3.hierarchy(data)
+        .sort((a, b) => d3.ascending(a.data.name, b.data.name)));
+
+      root.each(node => {
+        node.y = node.depth * 500;  // Adjust this value to set the distance between layers
+      });  
+
+      // Create the SVG container
+      const svg = d3.create("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("viewBox", [-width / 2, -height / 2, width, height]);
+
+      g = svg.append("g");
+
+      // Append links
+      g.append("g")
+        .attr("fill", "none")
+        .attr("stroke", "#555")
+        .attr("stroke-opacity", 0.4)
+        .attr("stroke-width", 1.5)
+        .selectAll("path")
+        .data(root.links())
+        .join("path")
+          .attr("d", d3.linkRadial()
+            .angle(d => d.x)
+            .radius(d => d.y));
+
+      // Append nodes
+      g.append("g")
+        .selectAll("circle")
+        .data(root.descendants())
+        .join("circle")
+          .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
+          .attr("fill", d => d.children ? "#555" : "#999")
+          .attr("r", 4);
+
+      // Append labels
+      g.append("g")
+        .selectAll("text")
+        .data(root.descendants())
+        .join("text")
+          .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0) rotate(${d.x >= Math.PI ? 180 : 0})`)
+          .attr("dy", "0.31em")
+          .attr("x", d => d.x < Math.PI === !d.children ? 6 : -6)
+          .attr("text-anchor", d => d.x < Math.PI === !d.children ? "start" : "end")
+          .text(d => d.data.name);
+
+      // Attach SVG to the DOM
+      document.body.appendChild(svg.node());
+    }
+
+    function zoomIn() {
+      currentTransform = currentTransform.scale(1.1);
+      g.transition().duration(500).attr("transform", currentTransform);
+    }
+
+    function zoomOut() {
+      currentTransform = currentTransform.scale(0.9);
+      g.transition().duration(500).attr("transform", currentTransform);
+    }
+
+    document.getElementById("zoom_in").addEventListener("click", zoomIn);
+    document.getElementById("zoom_out").addEventListener("click", zoomOut); 
+
+    // Load the data and render the chart
+    fetch('./Orgs.json') // Replace with the correct path to your JSON file
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log("Received data:", data);
+        renderChart(data);
+      })
+      .catch(error => {
+        console.error('Error loading data:', error);
+      });
+      
+  </script>
+</body>
+</html>
