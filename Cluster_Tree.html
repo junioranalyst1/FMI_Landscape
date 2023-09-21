@@ -1,14 +1,14 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-  <!-- Include D3.js library -->
-  <script src="https://d3js.org/d3.v6.min.js"></script>
+<!-- Include D3.js library -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
-<body>
-  <button id="zoom_in">Zoom In</button>
-  <button id="zoom_out">Zoom Out</button>
-
-  <script>
+<body style=" user-select: none;">
+<button id="zoom_in">Zoom In</button>
+<button id="zoom_out">Zoom Out</button>
+<script>
     let currentTransform = d3.zoomIdentity; // Global variable
     let g; // Global variable to hold the group element
 
@@ -38,6 +38,23 @@
         .attr("viewBox", [-width / 2, -height / 2, width, height]);
 
       g = svg.append("g");
+
+      // Define the drag behavior
+      const drag = d3.drag()
+          .on('drag', function (event) {
+              currentTransform = currentTransform.translate(event.dx, event.dy);
+              g.attr("transform", currentTransform);
+          });
+    
+      // Call the drag behavior on the group element
+      g.call(drag);
+
+      g.append("g")
+        .selectAll("text")
+        .data(root.descendants())
+        .join("text")
+        // ... [existing attributes] ...
+        .style("user-select", "none"); // Disable text selection for text elements
 
       // Append links
       g.append("g")
