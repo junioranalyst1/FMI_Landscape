@@ -2,12 +2,19 @@
 
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="styles.css">
 <!-- Include D3.js library -->
 <script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
-<body style=" user-select: none;">
-<button id="zoom_in">Zoom In</button>
-<button id="zoom_out">Zoom Out</button>
+<body>
+<div class="app">
+
+<div class="actions">
+  <div class="actions-header">Controls:</div>
+  <button id="zoom_in" class="action">Zoom In</button>
+  <button id="zoom_out" class="action">Zoom Out</button>
+</div>
+
 <script>
     let currentTransform = d3.zoomIdentity; // Global variable
     let g; // Global variable to hold the group element
@@ -123,5 +130,6 @@
       });
       
   </script>
+</div>
 </body>
 </html>
