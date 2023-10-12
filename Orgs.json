@@ -1,5 +1,5 @@
 {
-    "name": "WFE",
+    "name": " ",
     "children": [
         {
             "name": "ASX Group",
@@ -98,11 +98,11 @@
             "children": []
         },
         {
-            "name": "Bourse Régionale des Valeurs Mobilières S.A.",
+            "name": "Bourse R\u00e9gionale des Valeurs Mobili\u00e8res S.A.",
             "children": []
         },
         {
-            "name": "Brasil Bolsa Balcão (B3)",
+            "name": "Brasil Bolsa Balc\u00e3o (B3)",
             "children": [
                 {
                     "name": "B3 Derivatives",
@@ -578,7 +578,7 @@
             "name": "Mexico Stock Exchange",
             "children": [
                 {
-                    "name": "Asigna, Compensación y Liquidación",
+                    "name": "Asigna, Compensaci\u00f3n y Liquidaci\u00f3n",
                     "children": []
                 },
                 {
@@ -815,7 +815,7 @@
             "name": "SIX Group",
             "children": [
                 {
-                    "name": "BME (Bolsas y Mercados Españoles)",
+                    "name": "BME (Bolsas y Mercados Espa\u00f1oles)",
                     "children": [
                         {
                             "name": "BME Clearing",
@@ -1061,5 +1061,12 @@
             "name": "National Equities Exchange and Quotations",
             "children": []
         }
-    ] 
+    ],
+    "individualNodes": [
+        {
+            "label": "Test",
+            "x": 1000,
+            "y": 1000
+        }
+    ]
 }

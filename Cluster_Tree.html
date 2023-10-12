@@ -2,15 +2,33 @@
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
 <!-- Include D3.js library -->
 <script src="https://d3js.org/d3.v6.min.js"></script>
+
+<style>
+    .app {
+        user-select: none;
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* IE/Edge */
+    }
+</style>
+
+
+<style>
+    body, html {
+        user-select: none;
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none;    /* Firefox */
+        -ms-user-select: none;     /* IE/Edge */
+    }
+</style>
+
 </head>
 <body>
 <div class="app">
 
 <div class="actions">
-  <div class="actions-header">Controls:</div>
   <button id="zoom_in" class="action">Zoom In</button>
   <button id="zoom_out" class="action">Zoom Out</button>
 </div>
@@ -19,11 +37,32 @@
     let currentTransform = d3.zoomIdentity; // Global variable
     let g; // Global variable to hold the group element
 
+    const drag = d3.drag()
+    .on("start", dragstarted)
+    .on("drag", dragged)
+    .on("end", dragended);
+
+    function dragstarted(event, d) {
+    event.preventDefault();
+    d3.select(this).raise();
+    g.attr("cursor", "grabbing");
+    }
+
+    function dragged(event, d) {
+        currentTransform = currentTransform.translate(event.dx, event.dy);
+        g.attr("transform", currentTransform);  // Update the group's transformation
+    }
+
+    function dragended(event, d) {
+        g.attr("cursor", "grab");
+    }
+
     function renderChart(data) {
       // Specify the chart's dimensions
       const width = window.innerWidth;
       const height = window.innerHeight;
       const radius = Math.min(width, height) / 2 - 4;
+
 
       // Create a radial cluster layout
       const tree = d3.cluster()
@@ -45,18 +84,57 @@
         .attr("viewBox", [-width / 2, -height / 2, width, height]);
 
       g = svg.append("g");
-
-      // Define the drag behavior
-      const drag = d3.drag()
-          .on('drag', function (event) {
-              currentTransform = currentTransform.translate(event.dx, event.dy);
-              g.attr("transform", currentTransform);
-          });
-    
-      // Call the drag behavior on the group element
       g.call(drag);
 
-      g.append("g")
+
+    
+      // Call the drag behavior on the group element
+
+
+      
+g.append("g")
+    .selectAll("circle")
+    .data(root.descendants())
+    .enter()
+    .filter(d => d.depth !== 0)
+    .append("circle")
+    
+.attr("r", 4.5);
+
+// Extract individualNodes from the data
+const individualNodes = data.individualNodes;
+
+// Loop through each individualNode and render them
+individualNodes.forEach(node => {
+    g.append("circle")
+        .attr("cx", node.x)
+        .attr("cy", node.y)
+        .attr("r", 4.5)  // Adjust the radius as needed
+        .attr("fill", "red");  // You can change the color or other styles as needed
+
+    // If you want to add labels to the individual nodes:
+    g.append("text")
+        .attr("x", node.x)
+        .attr("y", node.y - 10)  // Adjust the y-offset to position the label above the circle
+        .attr("text-anchor", "middle")
+        .text(node.label);
+});
+
+
+g.append("g")
+    .selectAll("image")
+    .data(root.descendants())
+    .enter()
+    .filter(d => d.depth === 0)
+    .append("image")
+    .attr("href", "https://mcusercontent.com/48ddcbc11eb58f141a51219ea/images/bbbc134e-db1d-0873-1d7a-a8a36b662b1d.png")
+    .attr("x", -150)  // Assuming image width of 100px
+    .attr("y", -150)  // Assuming image height of 100px
+    .attr("width", 300)
+    .attr("height", 300);
+  // Original radius for other nodes
+
+    g.append("g")
         .selectAll("text")
         .data(root.descendants())
         .join("text")
@@ -86,7 +164,31 @@
           .attr("r", 4);
 
       // Append labels
-      g.append("g")
+      
+g.append("g")
+    .selectAll("circle")
+    .data(root.descendants())
+    .enter()
+    .filter(d => d.depth !== 0)
+    .append("circle")
+    
+.attr("r", 4.5);
+
+
+g.append("g")
+    .selectAll("image")
+    .data(root.descendants())
+    .enter()
+    .filter(d => d.depth === 0)
+    .append("image")
+    .attr("href", "https://mcusercontent.com/48ddcbc11eb58f141a51219ea/images/bbbc134e-db1d-0873-1d7a-a8a36b662b1d.png")
+    .attr("x", -150)  // Assuming image width of 100px
+    .attr("y", -150)  // Assuming image height of 100px
+    .attr("width", 300)
+    .attr("height", 300);
+  // Original radius for other nodes
+
+    g.append("g")
         .selectAll("text")
         .data(root.descendants())
         .join("text")
@@ -131,5 +233,12 @@
       
   </script>
 </div>
+
+<script>
+    document.addEventListener('selectstart', function(event) {
+        event.preventDefault();
+    });
+</script>
+
 </body>
 </html>
