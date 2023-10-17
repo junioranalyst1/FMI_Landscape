@@ -1065,8 +1065,1143 @@
     "individualNodes": [
         {
             "label": "Test",
-            "x": 1000,
-            "y": 1000
+            "x": -2392.5,
+            "y": 900.5
+        },
+        {
+            "label": "AIAF Mercado De Renta Fija",
+            "x": -561.25,
+            "y": 873.0
+        },
+        {
+            "label": "AMP (UBS MTF)",
+            "x": -1919.0,
+            "y": 1691.0
+        },
+        {
+            "label": "APX Group",
+            "x": -1440.2884075331174,
+            "y": 727.4628097766195
+        },
+        {
+            "label": "APX Power UK",
+            "x": 631.75,
+            "y": -328.0
+        },
+        {
+            "label": "ATHEX APA",
+            "x": 2436.92834767732,
+            "y": 767.1855129095878
+        },
+        {
+            "label": "Aquis Exchange",
+            "x": -1246.0,
+            "y": -1172.75
+        },
+        {
+            "label": "Aquis Exchange SA (EU Segment)",
+            "x": -1001.75,
+            "y": 1558.5
+        },
+        {
+            "label": "Aquis Stock Exchange AQSE",
+            "x": -723.25,
+            "y": 2088.5
+        },
+        {
+            "label": "Artex MTF",
+            "x": 2428.5,
+            "y": -1205.0
+        },
+        {
+            "label": "BIVA Exchange",
+            "x": -1030.5,
+            "y": 1476.25
+        },
+        {
+            "label": "BME APA",
+            "x": -1529.75,
+            "y": 1099.75
+        },
+        {
+            "label": "BME Electronic Outcry Market",
+            "x": -1951.77,
+            "y": 1063.1
+        },
+        {
+            "label": "BME Fixed Income",
+            "x": -586.0,
+            "y": -2394.25
+        },
+        {
+            "label": "BSE India",
+            "x": 1914.5,
+            "y": -2331.75
+        },
+        {
+            "label": "BVB Group",
+            "x": 497.0,
+            "y": -298.5
+        },
+        {
+            "label": "BX Swiss",
+            "x": -1496.0,
+            "y": -2242.25
+        },
+        {
+            "label": "BX Worldcaps",
+            "x": -2005.4460000000001,
+            "y": -1050.5635200000002
+        },
+        {
+            "label": "Bahamas International Securities Exchange",
+            "x": -2417.75,
+            "y": -1088.5
+        },
+        {
+            "label": "Banja Luka Stock Exchange",
+            "x": -827.0,
+            "y": -1396.0
+        },
+        {
+            "label": "Barbados Stock Exchange",
+            "x": -824.5,
+            "y": -1003.75
+        },
+        {
+            "label": "Beijing Stock Exchange",
+            "x": -1326.897754370457,
+            "y": 722.6198008409121
+        },
+        {
+            "label": "Belgrade Stock Exchange",
+            "x": -2464.0,
+            "y": 2122.75
+        },
+        {
+            "label": "Berlin Stock Exchange",
+            "x": -1220.0,
+            "y": 686.0
+        },
+        {
+            "label": "BlockMatch",
+            "x": 1632.75,
+            "y": 1416.0
+        },
+        {
+            "label": "Bloomberg APA",
+            "x": -1229.75,
+            "y": 820.0
+        },
+        {
+            "label": "Bloomberg MTF",
+            "x": 483.1576,
+            "y": -2055.6612
+        },
+        {
+            "label": "Bloomberg MTF EU",
+            "x": 488.75,
+            "y": 1201.5
+        },
+        {
+            "label": "Bolsa De Valores De Caracas",
+            "x": 290.25,
+            "y": -2257.75
+        },
+        {
+            "label": "Bolsa Electronica de Chile",
+            "x": -571.75,
+            "y": -2498.0
+        },
+        {
+            "label": "Bolsa Electronica de Valores de Uruguay",
+            "x": -1660.11184,
+            "y": 2301.602976
+        },
+        {
+            "label": "Bolsa Nacional de Valores Costa Rica",
+            "x": 839.5,
+            "y": 982.75
+        },
+        {
+            "label": "Bolsa de Valores de Quito",
+            "x": -981.0,
+            "y": -1590.5
+        },
+        {
+            "label": "Bolsa de Valores y Productos de Asuncion",
+            "x": -428.25,
+            "y": 281.25
+        },
+        {
+            "label": "Bolsas y Mercados Argentinos (BYMA)",
+            "x": -1368.75,
+            "y": -1498.75
+        },
+        {
+            "label": "Bolsas y Mercados Espanoles",
+            "x": -1676.704,
+            "y": 2370.4256
+        },
+        {
+            "label": "Boston Options Exchange",
+            "x": -1690.0,
+            "y": 526.75
+        },
+        {
+            "label": "Bourse Africa",
+            "x": 1074.75,
+            "y": 1873.5
+        },
+        {
+            "label": "Bratislava Stock Exchange",
+            "x": -1863.5,
+            "y": -1291.25
+        },
+        {
+            "label": "Budapest Stock Exchange",
+            "x": -1672.75,
+            "y": -2120.25
+        },
+        {
+            "label": "Budapest Stock Exchange APA",
+            "x": -2392.0,
+            "y": -1274.25
+        },
+        {
+            "label": "Bulgarian Stock Exchange",
+            "x": -1585.14904896,
+            "y": -1585.3403430399999
+        },
+        {
+            "label": "CNSX Markets",
+            "x": -2199.25,
+            "y": -904.25
+        },
+        {
+            "label": "CSE Inverse Book - CSE2",
+            "x": -639.25,
+            "y": -581.0
+        },
+        {
+            "label": "Cambodia Securities Exchange",
+            "x": -275.25,
+            "y": 2453.0
+        },
+        {
+            "label": "Canadian Securities Exchange",
+            "x": 2489.0,
+            "y": -2273.25
+        },
+        {
+            "label": "Cayman Islands Stock Exchange",
+            "x": 1089.0,
+            "y": 256.75
+        },
+        {
+            "label": "Central European Gas Hub AG",
+            "x": -587.0,
+            "y": -1241.5
+        },
+        {
+            "label": "CCLV, Contraparte Central S.A.",
+            "x": -2305.25,
+            "y": 675.25
+        },
+        {
+            "label": "Clearing Corporation of India",
+            "x": 1008.7221778650204,
+            "y": 752.1993049132387
+        },
+        {
+            "label": "Coinbase Derivatives",
+            "x": 1682.908131987651,
+            "y": -2122.0938375536593
+        },
+        {
+            "label": "Dansk OTC",
+            "x": -1327.0,
+            "y": 2247.75
+        },
+        {
+            "label": "Douala Stock Exchange",
+            "x": 1769.25,
+            "y": 1206.5
+        },
+        {
+            "label": "Dubai Gold and Commodities Exchange",
+            "x": -683.5,
+            "y": -2164.0
+        },
+        {
+            "label": "Dusseldorf Stock Exchange",
+            "x": -1245.2944285800834,
+            "y": -1695.7942696277019
+        },
+        {
+            "label": "EPEX Spot",
+            "x": -1189.0,
+            "y": -1316.5
+        },
+        {
+            "label": "ETS Eurasian Trading System",
+            "x": 2279.75,
+            "y": -403.25
+        },
+        {
+            "label": "Equiduct Trading",
+            "x": 2157.0,
+            "y": 1333.25
+        },
+        {
+            "label": "Eris Exchange",
+            "x": -1198.5,
+            "y": -1641.75
+        },
+        {
+            "label": "Eswatini Stock Exchange",
+            "x": -1869.5,
+            "y": -1525.25
+        },
+        {
+            "label": "Ethiopia Commodity Exchange",
+            "x": -489.25,
+            "y": 1843.75
+        },
+        {
+            "label": "EuroMTS",
+            "x": -1221.75,
+            "y": -268.0
+        },
+        {
+            "label": "EuroTLX",
+            "x": -1576.0,
+            "y": -989.25
+        },
+        {
+            "label": "Euronext",
+            "x": 2401.0,
+            "y": -947.75
+        },
+        {
+            "label": "Euronext APA",
+            "x": 351.75,
+            "y": 2049.25
+        },
+        {
+            "label": "Euronext Amsterdam",
+            "x": -1704.75,
+            "y": -1473.25
+        },
+        {
+            "label": "Euronext Brussels",
+            "x": -1382.25,
+            "y": 767.5
+        },
+        {
+            "label": "Euronext Dublin",
+            "x": 2491.25,
+            "y": 1271.25
+        },
+        {
+            "label": "Euronext Lisbon",
+            "x": -1756.75,
+            "y": 2138.25
+        },
+        {
+            "label": "Euronext Milan",
+            "x": 633.75,
+            "y": 1286.5
+        },
+        {
+            "label": "Euronext Paris",
+            "x": -1487.0,
+            "y": -908.75
+        },
+        {
+            "label": "European Warrant Exchange",
+            "x": -1857.3559704523018,
+            "y": -642.453232584981
+        },
+        {
+            "label": "FEX Financial and Energy Exchange",
+            "x": -1371.75,
+            "y": -890.0
+        },
+        {
+            "label": "FINRA ADF",
+            "x": 879.75,
+            "y": -998.5
+        },
+        {
+            "label": "FINRA TRACE",
+            "x": 1554.0,
+            "y": 620.75
+        },
+        {
+            "label": "Fish Pool ASA",
+            "x": -1588.0,
+            "y": 1908.75
+        },
+        {
+            "label": "Fukuoka Stock Exchange",
+            "x": -1598.75,
+            "y": -767.5
+        },
+        {
+            "label": "Georgia Stock Exchange",
+            "x": 1473.0,
+            "y": 1503.5
+        },
+        {
+            "label": "Gettex Exchange",
+            "x": 285.75,
+            "y": 1852.25
+        },
+        {
+            "label": "Hamburg Stock Exchange",
+            "x": 2051.5525499260084,
+            "y": 2458.7472277701663
+        },
+        {
+            "label": "Hanover Stock Exchange",
+            "x": 1142.8206948608001,
+            "y": -2009.421216896
+        },
+        {
+            "label": "Hi-MTF",
+            "x": 2384.5,
+            "y": 720.0
+        },
+        {
+            "label": "Hungarian Power Exchange",
+            "x": -1710.75,
+            "y": 861.0
+        },
+        {
+            "label": "IEX",
+            "x": 1325.4,
+            "y": 741.89
+        },
+        {
+            "label": "ISE Gemini",
+            "x": -2199.5,
+            "y": 2086.0
+        },
+        {
+            "label": "ISE Mercury",
+            "x": -1541.25,
+            "y": 1968.25
+        },
+        {
+            "label": "Instinet Canada Cross",
+            "x": -2087.47834496,
+            "y": -597.71169728
+        },
+        {
+            "label": "Iraq Stock Exchange",
+            "x": -1174.0,
+            "y": -744.25
+        },
+        {
+            "label": "Jakarta Futures Exchange",
+            "x": -2477.25,
+            "y": 2287.5
+        },
+        {
+            "label": "Jamaica Stock Exchange",
+            "x": 2021.3620344610883,
+            "y": 2378.1592327519966
+        },
+        {
+            "label": "Japannext",
+            "x": -1674.0,
+            "y": 2441.0
+        },
+        {
+            "label": "Japannext U-Market",
+            "x": 484.23,
+            "y": -1289.22
+        },
+        {
+            "label": "Japannext X-Market",
+            "x": -2117.75,
+            "y": 1151.75
+        },
+        {
+            "label": "K-OTC",
+            "x": -803.75,
+            "y": 2125.0
+        },
+        {
+            "label": "LMAX",
+            "x": 1638.5,
+            "y": -2176.75
+        },
+        {
+            "label": "Lang & Schwarz Exchange",
+            "x": 1018.3385347259391,
+            "y": 682.2363236473337
+        },
+        {
+            "label": "Lang & Schwarz Exchange - Systematic Internaliser",
+            "x": 1386.5,
+            "y": 705.75
+        },
+        {
+            "label": "Lao Securities Exchange",
+            "x": 2430.5,
+            "y": -372.5
+        },
+        {
+            "label": "Liquidnet",
+            "x": -624.3636884313261,
+            "y": -1678.3176828672088
+        },
+        {
+            "label": "Liquidnet - EU",
+            "x": 1880.0,
+            "y": 1137.0
+        },
+        {
+            "label": "Liquidnet Canada",
+            "x": 2237.25,
+            "y": -2002.25
+        },
+        {
+            "label": "Ljubljana Stock Exchange",
+            "x": -912.0,
+            "y": -1283.25
+        },
+        {
+            "label": "London Bullion Market",
+            "x": -990.75,
+            "y": -826.75
+        },
+        {
+            "label": "London Metal Exchange",
+            "x": 2416.75,
+            "y": 628.5
+        },
+        {
+            "label": "London Stock Exchange (EQS)",
+            "x": -1997.5,
+            "y": 1475.25
+        },
+        {
+            "label": "London Stock Exchange (domestic)",
+            "x": -2401.0,
+            "y": 2410.5
+        },
+        {
+            "label": "London Stock Exchange (international)",
+            "x": -597.5,
+            "y": -969.25
+        },
+        {
+            "label": "London Stock Exchange Group",
+            "x": 442.75,
+            "y": -1699.0
+        },
+        {
+            "label": "Long Term Stock Exchange",
+            "x": 1220.75,
+            "y": 462.25
+        },
+        {
+            "label": "Lusaka Stock Exchange",
+            "x": 787.25,
+            "y": -2065.5
+        },
+        {
+            "label": "Lynx ATS",
+            "x": -1579.75,
+            "y": -2438.25
+        },
+        {
+            "label": "MEFF Renta Variable",
+            "x": 2088.75,
+            "y": 2398.75
+        },
+        {
+            "label": "MEMX LLC",
+            "x": 1574.0,
+            "y": -2436.75
+        },
+        {
+            "label": "MEXDER Exchange",
+            "x": -1367.25,
+            "y": 2021.0
+        },
+        {
+            "label": "MTS Austria",
+            "x": 2317.5,
+            "y": -818.5
+        },
+        {
+            "label": "MTS Belgium",
+            "x": -1067.0,
+            "y": -1436.0
+        },
+        {
+            "label": "MTS Bondvision",
+            "x": -1071.0,
+            "y": 2042.0
+        },
+        {
+            "label": "MTS Czech Republic",
+            "x": 1556.5,
+            "y": 1178.5
+        },
+        {
+            "label": "MTS Denmark",
+            "x": -370.0,
+            "y": 1929.75
+        },
+        {
+            "label": "MTS Finland",
+            "x": -2476.5,
+            "y": -2335.25
+        },
+        {
+            "label": "MTS France",
+            "x": 442.5325492859019,
+            "y": -1154.7419090425053
+        },
+        {
+            "label": "MTS Germany",
+            "x": 1705.0,
+            "y": 1903.0
+        },
+        {
+            "label": "MTS Greece",
+            "x": -517.5,
+            "y": -1828.25
+        },
+        {
+            "label": "MTS Group",
+            "x": -1885.25,
+            "y": 2163.5
+        },
+        {
+            "label": "MTS Ireland",
+            "x": 1501.25,
+            "y": -832.25
+        },
+        {
+            "label": "MTS Israel",
+            "x": -1784.25,
+            "y": 2337.5
+        },
+        {
+            "label": "MTS Italy",
+            "x": 2283.0,
+            "y": -1757.5
+        },
+        {
+            "label": "MTS Netherlands",
+            "x": 2215.25,
+            "y": 294.75
+        },
+        {
+            "label": "MTS Portugal",
+            "x": 1611.0,
+            "y": 2263.5
+        },
+        {
+            "label": "MTS Slovakia",
+            "x": 1775.25,
+            "y": 421.25
+        },
+        {
+            "label": "MTS Slovenia",
+            "x": -2359.25,
+            "y": -339.25
+        },
+        {
+            "label": "MTS Spain",
+            "x": 715.75,
+            "y": 720.0
+        },
+        {
+            "label": "Macedonian Stock Exchange",
+            "x": -1202.75,
+            "y": 1354.0
+        },
+        {
+            "label": "Malawi Stock Exchange",
+            "x": 762.5,
+            "y": 422.25
+        },
+        {
+            "label": "Maldives Stock Exchange",
+            "x": -921.75,
+            "y": 719.0
+        },
+        {
+            "label": "Members Exchange",
+            "x": -1247.5,
+            "y": -1090.25
+        },
+        {
+            "label": "Mercado Abierto Electronico",
+            "x": 492.25,
+            "y": 461.75
+        },
+        {
+            "label": "Mercado a Termino de Buenos Aires",
+            "x": 1603.0,
+            "y": -1249.0
+        },
+        {
+            "label": "Metropolitan Stock Exchange",
+            "x": 2258.0,
+            "y": -615.75
+        },
+        {
+            "label": "Minneapolis Grain Exchange",
+            "x": -1885.25,
+            "y": -550.75
+        },
+        {
+            "label": "Moldova Stock Exchange",
+            "x": -2161.0,
+            "y": -1789.5
+        },
+        {
+            "label": "Mongolian Stock Exchange",
+            "x": 2111.5,
+            "y": -582.25
+        },
+        {
+            "label": "Montenegro Stock Exchange",
+            "x": 2370.25,
+            "y": 1459.0
+        },
+        {
+            "label": "Moscow Exchange (MOEX)",
+            "x": -1549.5,
+            "y": 827.75
+        },
+        {
+            "label": "Mozambique Stock Exchange",
+            "x": 1654.0,
+            "y": 329.75
+        },
+        {
+            "label": "Multi Commodity Exchange of India",
+            "x": -2245.5,
+            "y": 367.25
+        },
+        {
+            "label": "Munich Stock Exchange",
+            "x": 722.25,
+            "y": -792.75
+        },
+        {
+            "label": "N2EX UK Power Market",
+            "x": 671.5,
+            "y": -1779.5
+        },
+        {
+            "label": "NEX",
+            "x": 1215.0,
+            "y": -1614.75
+        },
+        {
+            "label": "NYSE Chicago",
+            "x": -301.0,
+            "y": 865.5
+        },
+        {
+            "label": "NYSE National",
+            "x": 1929.25,
+            "y": 1617.25
+        },
+        {
+            "label": "Nagoya Stock Exchange",
+            "x": 633.5,
+            "y": 1546.5
+        },
+        {
+            "label": "National Commodity and Derivatives Exchange India",
+            "x": -2218.25,
+            "y": -1069.75
+        },
+        {
+            "label": "National Stock Exchange of Australia",
+            "x": -2156.5,
+            "y": -611.75
+        },
+        {
+            "label": "Nile Stock Exchange",
+            "x": 2328.5,
+            "y": -2351.5
+        },
+        {
+            "label": "Nord Pool Spot",
+            "x": 463.25,
+            "y": 1690.25
+        },
+        {
+            "label": "Nord Pool Spot ASA",
+            "x": -872.75,
+            "y": -2260.5
+        },
+        {
+            "label": "Nordic Derivatives Exchange",
+            "x": 784.78,
+            "y": 867.27
+        },
+        {
+            "label": "Nordic Derivatives Exchange Finland",
+            "x": 565.0,
+            "y": 1458.5
+        },
+        {
+            "label": "Nordic Derivatives Exchange Sweden",
+            "x": 1904.25,
+            "y": -2005.5
+        },
+        {
+            "label": "Nordic Growth Market",
+            "x": -342.25,
+            "y": -1478.5
+        },
+        {
+            "label": "Norwegian OTC Market",
+            "x": 1660.75,
+            "y": -1057.5
+        },
+        {
+            "label": "OMEL Mercado de Electricidad",
+            "x": 2090.0,
+            "y": 2086.0
+        },
+        {
+            "label": "OMIP Operador De Mercado Iberico De Energia",
+            "x": -1009.25,
+            "y": -1326.25
+        },
+        {
+            "label": "OTC Bulletin Board",
+            "x": -1663.240999832452,
+            "y": 1036.0057066487946
+        },
+        {
+            "label": "OTC Markets (Quotes Only)",
+            "x": 624.0,
+            "y": 2048.5
+        },
+        {
+            "label": "OTC US",
+            "x": -1840.5,
+            "y": -711.75
+        },
+        {
+            "label": "OTC-X Berner KantonalBank",
+            "x": -1391.25,
+            "y": 1359.25
+        },
+        {
+            "label": "Omega ATS",
+            "x": -1733.5,
+            "y": 1043.5
+        },
+        {
+            "label": "Osaka Digital Exchange",
+            "x": -2289.25,
+            "y": -389.5
+        },
+        {
+            "label": "Osaka Dojima Commodity Exchange",
+            "x": -2293.0,
+            "y": 2055.25
+        },
+        {
+            "label": "Osaka Exchange",
+            "x": -1931.75,
+            "y": 1132.0
+        },
+        {
+            "label": "Oslo Bors",
+            "x": 402.0,
+            "y": -463.25
+        },
+        {
+            "label": "Oslo Bors VPS",
+            "x": -2275.5,
+            "y": -2027.75
+        },
+        {
+            "label": "PFTS Stock Exchange",
+            "x": -1024.75,
+            "y": -2364.25
+        },
+        {
+            "label": "PNGX Markets Limited",
+            "x": 1190.5,
+            "y": 394.0
+        },
+        {
+            "label": "PURE Trading",
+            "x": 471.75,
+            "y": -1218.5
+        },
+        {
+            "label": "Pakistan Mercantile Exchange",
+            "x": 1088.5,
+            "y": 693.75
+        },
+        {
+            "label": "Polish Power Exchange",
+            "x": 890.5,
+            "y": -2480.25
+        },
+        {
+            "label": "Powernext",
+            "x": 464.5,
+            "y": -1987.25
+        },
+        {
+            "label": "Prague Stock Exchange",
+            "x": -1207.5,
+            "y": -620.0
+        },
+        {
+            "label": "QUOTRIX",
+            "x": 1917.75,
+            "y": -1698.5
+        },
+        {
+            "label": "Rosario Futures Exchange",
+            "x": 2185.0,
+            "y": 1557.25
+        },
+        {
+            "label": "Russian Trading System",
+            "x": -385.75,
+            "y": 552.5
+        },
+        {
+            "label": "Rwanda Stock Exchange",
+            "x": -1515.25,
+            "y": -1567.5
+        },
+        {
+            "label": "SH-HK Connect Northbound",
+            "x": -300.0,
+            "y": 1503.25
+        },
+        {
+            "label": "SH-HK Connect Southbound",
+            "x": -558.25,
+            "y": -1652.25
+        },
+        {
+            "label": "SIGMA X MTF",
+            "x": 443.75,
+            "y": -1084.75
+        },
+        {
+            "label": "SIGMA X MTF Europe",
+            "x": 945.5,
+            "y": -2055.75
+        },
+        {
+            "label": "SZ-HK Connect Northbound",
+            "x": -1428.25,
+            "y": -1640.0
+        },
+        {
+            "label": "SZ-HK Connect Southbound",
+            "x": -1414.75,
+            "y": 2087.25
+        },
+        {
+            "label": "Sapporo Securities Exchange",
+            "x": 738.5,
+            "y": 814.75
+        },
+        {
+            "label": "Sarajevo Stock Exchange",
+            "x": -1800.0,
+            "y": -1551.5
+        },
+        {
+            "label": "Sociedad de Bolsas (SIBE)",
+            "x": 2128.75,
+            "y": 1961.5
+        },
+        {
+            "label": "South Pacific Stock Exchange",
+            "x": 900.0,
+            "y": 1373.0
+        },
+        {
+            "label": "Spotlight Stock Market",
+            "x": 596.25,
+            "y": -1316.0
+        },
+        {
+            "label": "TBS Poland",
+            "x": -2149.5,
+            "y": 533.0
+        },
+        {
+            "label": "The International Stock Exchange",
+            "x": 926.75,
+            "y": 297.25
+        },
+        {
+            "label": "Tokyo Commodity Exchange",
+            "x": -2434.75,
+            "y": 1827.5
+        },
+        {
+            "label": "Tokyo Financial Exchange",
+            "x": -2297.0,
+            "y": 2413.5
+        },
+        {
+            "label": "Tokyo Stock Exchange",
+            "x": 353.25,
+            "y": 1278.75
+        },
+        {
+            "label": "TradEcho (LSE)",
+            "x": -383.75,
+            "y": -666.75
+        },
+        {
+            "label": "TradEcho Europe",
+            "x": 1278.0,
+            "y": 2255.25
+        },
+        {
+            "label": "Tradeweb APA",
+            "x": 1180.8517964799998,
+            "y": 1701.7631116799998
+        },
+        {
+            "label": "Tradeweb APA EU",
+            "x": 812.25,
+            "y": 2031.25
+        },
+        {
+            "label": "Tradeweb MTF",
+            "x": -702.25,
+            "y": 1929.75
+        },
+        {
+            "label": "Tradeweb MTF EU",
+            "x": 1102.25,
+            "y": -1951.25
+        },
+        {
+            "label": "Trax APA",
+            "x": 312.25,
+            "y": -2145.5
+        },
+        {
+            "label": "TriAct CSE",
+            "x": -2075.75,
+            "y": -1059.0
+        },
+        {
+            "label": "TriAct Canada",
+            "x": 383.25,
+            "y": 1135.25
+        },
+        {
+            "label": "TriAct Venture",
+            "x": 1319.0,
+            "y": 565.25
+        },
+        {
+            "label": "Trinidad and Tobago Stock Exchange",
+            "x": -636.0,
+            "y": 958.75
+        },
+        {
+            "label": "Turquoise",
+            "x": -435.0,
+            "y": 2132.0
+        },
+        {
+            "label": "Turquoise Europe",
+            "x": -1928.5,
+            "y": -735.25
+        },
+        {
+            "label": "Uganda Securities Exchange",
+            "x": 738.75,
+            "y": 2114.0
+        },
+        {
+            "label": "Ukrainian Stock Exchange",
+            "x": 756.25,
+            "y": 1942.5
+        },
+        {
+            "label": "Vienna APA",
+            "x": 2189.25,
+            "y": -311.75
+        },
+        {
+            "label": "Vienna Stock Exchange",
+            "x": 829.5,
+            "y": -1067.0
+        },
+        {
+            "label": "Wiener Borse",
+            "x": -1885.0,
+            "y": -1046.25
+        },
+        {
+            "label": "Zagreb Stock Exchange",
+            "x": -331.5,
+            "y": 2038.75
+        },
+        {
+            "label": "Zimbabwe Stock Exchange",
+            "x": -994.75,
+            "y": -954.25
+        },
+        {
+            "label": "e-MID",
+            "x": -1102.75,
+            "y": 252.25
+        },
+        {
+            "label": "Asia Pacific Exchange (APEX)",
+            "x": 1752.75,
+            "y": 911.75
+        },
+        {
+            "label": "Argentina Clearing S.A.",
+            "x": 718.25,
+            "y": -1704.75
+        },
+        {
+            "label": "CCP Austria",
+            "x": 1316.25,
+            "y": -330.5
+        },
+        {
+            "label": "JASDEC DVP Clearing Corporation",
+            "x": 1113.0,
+            "y": 1727.5
+        },
+        {
+            "label": "KDPW",
+            "x": -519.0,
+            "y": -558.0
+        },
+        {
+            "label": "OMIClear",
+            "x": 2241.0,
+            "y": 2110.5
         }
     ]
 }
