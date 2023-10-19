@@ -270,12 +270,12 @@ g.append("g")
 
 </body>
 </html><script>
-    .selectAll("circle")
+    selectAll("circle")
     .attr("fill", function(d) { 
         return d.children ? "#555" : "rgb(124,252,0)"; 
     });
 </script><script>
-    .selectAll("circle")
+    selectAll("circle")
     .attr("fill", function(d) { 
         return d.data.name === "Test" ? "rgb(124,252,0)" : "#555"; 
     });
